@@ -1,0 +1,19 @@
+{
+  "name": "multiroom_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "diego peres marques",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "socket.io": "^2.2.0"
+  }
+}

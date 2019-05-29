@@ -1,0 +1,9 @@
+/*
+
+Aula 75 - Inserindo documentos
+
+Para inserir documentos o seguitne comando deve ser executado
+
+db.nomeCollection.save({rotulo: valor, rotulo2: valor2})
+
+*/

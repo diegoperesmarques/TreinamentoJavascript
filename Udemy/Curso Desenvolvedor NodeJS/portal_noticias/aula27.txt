@@ -1,0 +1,25 @@
+Aula 27
+
+Revisando o conteúdo
+
+Uma pausa para revisão do conteúdo
+
+
+NodeJS
+
+Módulos
+Express
+EJS
+MySQL
+
+Os módulos foram instalados através do NPM
+
+A aplicação foi modularizada para seguir os padrão do MVC
+
+app
+	routes
+	views
+config
+	dbConnection.js
+	server.js
+app.js

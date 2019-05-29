@@ -1,0 +1,22 @@
+/*
+
+Aula 71 - Instalação e configuração do Mongodb
+
+Os instaladores estão na pasta padrão de programas do windows
+c:\Program Files\mongodb\server\3.2\bin
+
+Ao executar a primeira vez o servidor do mongo (mongod.exe), será 
+solicitado a criação da pasta para armazenamento dos arquivos
+c:\data:\db
+
+
+Para executar o servidor o seguinte arquivo deve ser executado
+c:\Program Files\MongoDB\Server\3.2\bin\mongod.exe
+
+
+Para acessar o banco de dados o seguinte arquivo deve ser executado
+c:\Program Files\MongoDB\Server\3.2\bin\mongo.exe
+
+
+
+*/

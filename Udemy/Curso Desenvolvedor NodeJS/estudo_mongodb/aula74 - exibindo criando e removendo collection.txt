@@ -1,0 +1,21 @@
+/*
+
+Aula 74 - exibindo criando e removendo collection
+
+
+Para criar uma collection o seguinte comando deve ser executado:
+
+db.createCollection("nomeDaCollection");
+
+
+Para exibir todas as collection o seguinte comando deve
+ser executado:
+db.getCollectionNames();
+
+
+Para excluri uma collection o seguinte comando deve ser 
+executado:
+
+db.nomeDaCollection.drop();
+
+*/

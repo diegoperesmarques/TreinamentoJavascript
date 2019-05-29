@@ -1,0 +1,6 @@
+Verificando versão do NPM no prompt de comando
+node -v
+
+
+Iniciar o NPM no diretório através do prompt de comando
+npm init

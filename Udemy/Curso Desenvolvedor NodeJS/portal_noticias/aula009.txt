@@ -1,0 +1,44 @@
+/*
+Aula 09
+Respodendo a requisições por URL
+
+*/
+
+//Importanto o módulo http
+var http = require("http");
+
+//Criando um servidor dentro de uma variável
+var servidor = createServer(
+	function(req, res)
+	{
+		/*
+			Será criada uma variável para pegar
+			tudo o que o usuário digitar no navegador
+			utilizando o parâmetro "req" com o método "url"
+		*/
+		var categoria = req.url;
+
+
+		/*
+			Será criado um if para cada
+			url que o usuário digitarl
+			com sua respectiva codificação html
+		*/
+
+		if(categoria == "/tecnologia") 
+		{
+			res.end("<html><body>Noticias de tecnologia</body></html>");
+		} else if (categoria == "/moda")
+		{
+			res.end("<html><body>Noticias de moda</body></html>");
+		} else if (categoria == "/beleza")
+		{
+			res.end("<html><body>Noticias de beleza</body></html>");
+		} else {
+			res.end("<html><body>Páginas de noticias</body></html>");
+		}
+	}
+);
+
+
+servidor.listen(3000);

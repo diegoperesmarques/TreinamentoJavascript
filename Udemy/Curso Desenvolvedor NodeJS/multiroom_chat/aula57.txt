@@ -1,0 +1,37 @@
+/*
+
+Nesta aula está iniciando um novo projeto "multiroom chat". 
+Então, o a estrutura do projeto está sendo montada
+
+1) Iniciado NPM
+npm init
+
+2) Baixar dependências: 
+2.1) express
+npm install express --save
+2.2) ejs
+npm install ejs --save
+2.3) consign 
+npm install consign --save
+2.4) body-parser
+npm install body-parser --save
+2.5) Express-Validator
+npm install express-validator
+
+3) Criado a estrutura de pastas
+
+app
+|-viewes
+|-routes
+|-controllers
+|-models
+|-public
+|-|-css
+|-|-js
+|-|-images
+config
+|-server.js
+app.js
+
+
+*/

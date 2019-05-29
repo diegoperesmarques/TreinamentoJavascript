@@ -1,0 +1,42 @@
+﻿/*
+
+Aula 44 - Realizando o factoring do projeto para adaptação ao express-validator
+
+
+Foram acrescentados novos campos ao formulário e novas colunas a tabela do banco de dados
+
+no formulário:
+
+
+:wq
+
+
+
+
+
+        <label>Resumo</label>
+        <input type="text" id="resumo" name="resumo" placeholder="Resumo da noticia" />
+        <br />
+
+        <label>Nome do autor</label>
+        <input type="text" id="autor" name="autor" placeholder="Nome do autor" />
+        <br />
+
+        <label>Data dos fatos</label>
+        <input type="date" id="data_noticia" name="data_noticia" placeholder="Data da noticia" />
+        <br />
+
+
+
+Foram acrescentadas as seguintes colunas no banco:
+
+alter table noticias add column resumo varchar(100);
+
+alter table noticias add column autor varchar(30);
+
+alter table noticias add column data_noticia date;
+
+
+select * from noticias;
+
+*/

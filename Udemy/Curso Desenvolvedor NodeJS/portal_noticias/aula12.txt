@@ -1,0 +1,12 @@
+/*
+
+Aula 12 
+Instalando o express através do prompt de comando
+
+npm install express -save
+
+Com o comando -save o módulo já fica baixado na pasta
+Asism quem for utilizado no projeto já vai ter todos
+os pacotes na pasta
+
+*/

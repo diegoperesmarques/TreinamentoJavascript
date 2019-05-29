@@ -1,0 +1,9 @@
+/*
+
+Aula 29
+
+Instalando o módulo cosign utilizando o NPM
+
+npm install cosign --save
+
+*/

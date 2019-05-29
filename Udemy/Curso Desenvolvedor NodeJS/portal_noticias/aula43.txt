@@ -1,0 +1,20 @@
+/*
+
+Aula 43 - Instalando o express validator 
+
+Para realizar a instalação do express-validator no projeto será utilizado
+o NPM com o seguitne comando:
+
+npm install express-validator --save
+
+Como o express-validator é um middleware será necessário incluir no arquivo
+do servidor (server.js)
+
+Importar o módulo
+var expressValidator = require("express-validator");
+
+
+Chamar a função 
+app.user(expressValidator());
+
+*/

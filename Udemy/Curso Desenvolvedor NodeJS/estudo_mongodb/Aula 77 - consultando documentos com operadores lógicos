@@ -1,0 +1,23 @@
+/*
+
+Aula 77 - Consultando documentos com operadores lógicos
+
+
+Operador e
+
+db.alunos.find({
+	nome: {$eq: "Maria"},
+	idade: {$lt: 30}
+});
+
+
+
+Operador ou
+db.alunos.find({
+	$or: [
+		{nome: {$eq: "Maria"}},
+		{nome: {$eq: "José"}}
+	]
+}):
+
+*/

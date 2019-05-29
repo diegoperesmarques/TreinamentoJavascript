@@ -1,0 +1,19 @@
+/*
+
+Aula 72 - Exbindo, criando e deletando banco de dados;
+
+
+Para exibir todos os bancos de dados utilize o seguinte comando
+show dbs;
+
+
+O comando "use" serve para utilizar um banco de dados ou mesmo para criar, quando
+não existe. Porém, o banco de dados somente é criando que um documento é inserido
+use curso_mongodb
+
+Para excluir um banco de dados primeiro deve acessar o comando e depois executar
+ o comando
+use curso_mongodb;
+db.dropDatabase();
+
+*/

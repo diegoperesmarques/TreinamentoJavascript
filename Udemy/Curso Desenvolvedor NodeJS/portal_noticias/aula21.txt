@@ -1,0 +1,5 @@
+Aula 21
+
+Nessa aula é mostrado a instalação do MySQL no NodeJS através do NPM
+
+npm install mysql --save

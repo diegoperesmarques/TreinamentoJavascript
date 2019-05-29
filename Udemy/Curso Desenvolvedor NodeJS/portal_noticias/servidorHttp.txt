@@ -1,0 +1,30 @@
+//Utilizando o módulo http para criação de servidor
+
+
+//Importação do módulo
+var http = require("http");
+
+
+/*
+Criação do servidor sem variável
+http.createServer(
+	function(req, res)
+	{
+		res.end("<html><body>Porta de noticias</body></html>");
+	}
+).listen(3000);
+
+*/
+
+
+//Criação do servidor com variável
+var servidor = http.createServer(
+	function(req, res)
+	{
+		res.end("<html><body>Portal de noticias</body></html>");	
+	}
+);
+
+servidor.listen(3000);
+
+

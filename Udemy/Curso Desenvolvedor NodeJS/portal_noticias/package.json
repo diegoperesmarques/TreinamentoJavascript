@@ -1,0 +1,28 @@
+{
+  "name": "portalnoticias",
+  "version": "1.0.0",
+  "description": "Portal de noticias",
+  "main": "noticias.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoperesmarques/cursoNodeJS.git"
+  },
+  "author": "Diego Peres Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoperesmarques/cursoNodeJS/issues"
+  },
+  "homepage": "https://github.com/diegoperesmarques/cursoNodeJS#readme"
+}

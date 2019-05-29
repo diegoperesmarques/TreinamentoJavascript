@@ -1,0 +1,14 @@
+/*
+
+Aula 017 - Instalando o Nodemon
+
+O Nodemon será instalando via NPM através do prompt de comando
+
+Comando para instalar o Nodemon
+
+
+npm install -g nodemon
+
+Com o parâmetro -g o nodemon já fica de forma global para todo o computador
+
+*/

@@ -1,0 +1,23 @@
+/*
+
+Aula 76 - Consultando documentos com operadores de comparação
+
+$eq - Equals
+$gt - Greater Than
+$gte - Greater Than or Equal
+$lt - Less Than
+$ltr = Less than or equal
+$ne = Not Equal
+
+Utilizando a função find com os operadores acima
+
+db.nomeCollection.findOne() -- Primeiro documento da collection
+
+Trazer todos os documentos da collection
+db.nomeCollection.find()
+
+
+Trazer todos os documentos que a idade é maior que 30
+db.alunos.find({idade: {$gt: 30}});
+
+*/

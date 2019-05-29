@@ -1,0 +1,11 @@
+/*
+
+Aula 64 - Instalando socket.io
+
+Nesta aula foi mostrando a instalação do socket.io
+
+Será utilizado o npm para realizar a instalação do mesmo, com o seguinte comando:
+
+npm install socket.io --save
+
+*/

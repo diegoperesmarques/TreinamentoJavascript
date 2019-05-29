@@ -1,0 +1,33 @@
+/*
+
+Aula 013 - Refactoring do projeto com Express
+
+*/
+
+
+//Importando o módulo do express
+var express = require("express");
+var app = express();
+
+//Criando as rotas
+app.get("/", 
+	function(req, res)
+	{
+		res.send("<html><body>Portal de noticias</body></html>");
+	}
+);
+
+app.get("/tecnologia",
+	function(req, res)
+	{
+		res.send("<html><body>Noticias de tenoclogia</body></html>");
+	}
+);
+
+//Iniciando o servidor com a função de callback
+app.listen(3000, 
+	function()
+	{
+		console.log("O servidor está iniciado com express");
+	}
+);

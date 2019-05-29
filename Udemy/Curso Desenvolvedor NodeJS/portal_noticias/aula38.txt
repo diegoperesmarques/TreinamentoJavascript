@@ -1,0 +1,19 @@
+/*
+
+Nesta aula foi utilizando o módulo body-parser para
+receber os dados do formulário. Para realizar a instalação
+do body-parser é utilizando o NPM
+
+npm install body-parser --save
+
+
+
+Dentro do arquivo do servidor (/config/server.js) foi acrescentado as seguintes linhas
+
+var bodyParser = require("body-parser");
+
+app.use(bodyParser.urlencoded({ extended:true }));
+
+
+
+*/

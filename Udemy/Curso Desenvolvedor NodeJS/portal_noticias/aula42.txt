@@ -1,0 +1,13 @@
+/*
+Aula 42 - Introdução ao express-validator
+
+Ele é um middleware que vai atualizar validando os dados que são 
+enviados através de POST para o servidor
+
+Ele vai popular uma variável com os erros
+
+Então, se a variáveis por falsa ele permite a execução do processo
+Mas, se a variável for verdadeira, recuperamos o erro que está na variável
+E o processo é interrompido
+
+*/

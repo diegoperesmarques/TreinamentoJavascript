@@ -1,0 +1,8 @@
+/*
+
+Aula 36 - Resolvendo problemas de encondin
+
+Nesta aula foi mostrando que além de adicionar o encoding no cabeçalho
+do HTML, também é necessário verificar o tipo do arquivo 
+
+*/
