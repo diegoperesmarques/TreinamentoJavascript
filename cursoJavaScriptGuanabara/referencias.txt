@@ -1,0 +1,14 @@
+JavaScritp o Guia Definitivo
+
+JavaScript - Guia do Programador
+
+
+https://github.com/braziljs/eloquente-javascript
+
+
+Referências Mozilla
+https://developer.mozilla.org/pt-BR/docs/Web/Reference
+
+
+Referência ECMA 
+https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf
