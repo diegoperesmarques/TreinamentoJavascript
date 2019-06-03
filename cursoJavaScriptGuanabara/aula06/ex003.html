@@ -15,17 +15,28 @@
         h1 {
             color: #8daf2d;
         }
+        /* Isso é um comentário */ 
     </style>
 </head>
 <body>
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição!</p>
-
+    <!-- Isso é um comentário -->
 
     <script type = "text/javascript">
-        window.alert("Minha primeira mensagem");
-        window.confirm("Está gostando de JavaScript?"); //Janela com o botão OK e Cancelar
-        window.prompt("Qual é o seu nome?"); //vai perguntar o meu nome 
+        var n1 = Number(window.prompt("Digite um número: "));
+        var n2 = Number(window.prompt("Digite outro número: "));
+        var s = n1 + n2;
+        window.alert("A soma dos valores é: " +String(s);
+        // + (number + number) para adição
+        // + (string + string) para concatenação
+        // Converter para inteiro Number.parseInt
+        // Converter para real Number.parseFloat
+        /*
+            Número para String
+            String(n)
+            n.toString();
+        */
     </script>
 </body>
 </html>

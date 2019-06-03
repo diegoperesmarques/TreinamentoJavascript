@@ -1,0 +1,42 @@
+Identificadores de variáveis
+
+1) Podem começar com letra, $ ou _
+
+2) Não podem começar com números
+
+3) É possível usar letras ou números
+
+
+4) E possível usar acentos e símbolos
+
+5) Não podem conter espaços
+
+6) Não podem ser palavras reservadas
+
+----------------------------
+Dicas
+---------------------------
+1) Maiúsculas e minúsculas fazem diferença
+
+2) Tente escolher nomes coerents para as variáveis
+
+3) Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+
+
+
+------------------------------
+Tipos primitivos 
+-----------------------------
+
+1) Número inteiros e reais todos são 'Number'
+
+
+2) String
+
+3) Boolean
+
+--------------------------
+comando typeof variáveis
+Mostra o tipo da variável
+
