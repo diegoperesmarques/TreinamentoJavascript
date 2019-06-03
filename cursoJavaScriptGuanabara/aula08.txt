@@ -1,0 +1,14 @@
+Operadores Relacionais
+
+5 > 2
+7 > 4
+8 >= 8
+9 <= 7
+5 == 5
+4 != 4
+
+Operadores Lógicos
+
+! - negação
+&& - conjunção
+|| disjunção
