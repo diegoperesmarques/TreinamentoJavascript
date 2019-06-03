@@ -1,0 +1,23 @@
++ - sinal para soma
+- - sinal para subtração
+* - sinal para multiplicação
+/ - sinal para divisão
+% - resto da divisão inteira
+** - sinal de pontência
+
+
+Ordem de precedência
+()
+**
+* / %
++ - 
+
+
+---------------------
+var n = 3;
+n = n + 4        n+=4
+n = n - 5        n -= 5
+n = n * 4        n *= 4
+n = n / 2        n /= 2
+n = n ** 2       n **= 2 
+n = n % 5        n %= 5
