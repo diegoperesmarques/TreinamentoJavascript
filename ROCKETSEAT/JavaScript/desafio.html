@@ -76,12 +76,16 @@
         console.log(temHabilidade(skills[0]));
      ----------------------------------------------------
 
-            FIM EXERCÍCIO 004
+            FIM EXERCÍCIO 003
 
      ---------------------------------------------------- 
 
-     */
+     
+     ----------------------------------------------------
 
+            INÍCIO EXERCÍCIO 004
+
+     ---------------------------------------------------- 
      function experiencia(anos){
          if (anos <= 1) {
              return "Iniciante";
@@ -96,6 +100,34 @@
 
      var anosEstudo = 7;
      console.log(experiencia(anosEstudo));
+     ----------------------------------------------------
+
+            FIM EXERCÍCIO 004
+
+     ---------------------------------------------------- 
+     */
+
+     var usuarios = [
+         {
+             nome: "Diego",
+             habilidades: ["Javascript", "ReactJS", "Redux"]
+         },
+         {
+             nome: "Gabriel",
+             habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+         }
+     ];
+
+     function exibir (usuarios){
+        for (usuario of usuarios){
+            console.log("O " +usuario.nome+ 
+            "possui as habilidades " +
+            usuario.habilidades.join(", "));
+        }
+     }
+
+     console.log(exibir(usuarios));
+
     </script>
 </body>
 </html>
