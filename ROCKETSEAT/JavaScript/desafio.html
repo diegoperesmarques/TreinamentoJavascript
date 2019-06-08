@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1º Desafio - Rocketseat</title>
+</head>
+<body>
+    
+    <script type = "text/javascript">
+        var endereco = {
+            rua: "Rua dos pinheiros",
+            numero: 1293,
+            bairro: "Centro",
+            cidade: "São Paulo",
+            uf: "SP"
+        }
+        function primeiroExercicio(rua, numero, bairro, cidade, uf){
+            return `O usuário mora em ${cidade}/${uf}, no bairro ${bairro}, na rua "${rua}" com  nº ${numero}`;
+        }
+
+        console.log(primeiroExercicio(endereco.rua, endereco.numero, endereco.bairro, endereco.cidade, endereco.uf));
+    </script>
+</body>
+</html>
