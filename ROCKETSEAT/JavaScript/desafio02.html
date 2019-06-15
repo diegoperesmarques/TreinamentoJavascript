@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desafios</title>
+</head>
+<body>
+    <h3>Desafio 001</h3>
+    <p>Crie um botão que ao ser clicado criar um novo elemento em tela com 
+        a forma de um quadrado vermelho com 100px de altura e largura.
+        Sempre que o botão for clicado um novo quadrado deve aparecer 
+        na tela.
+    </p>
+    <button id = "botao">Clique aqui</button>
+    <div id = "recebe"></div>
+
+
+    <h3>Desafio 002</h3>
+    <p>Utilizando o resultado do primeiro desafio, toda vez que o usuário
+        passar o mouse por cima de algum quadrado troque sua cor para 
+        uma cor aleatória gerada pela função abaixo:
+
+        <code>
+            <br />
+            function getRandomColor(){<br />
+                var letters = "0123456789ABCDEF";<br />
+                var color = "#";<br />
+                for (var i = 0; i < 6; i++){<br />
+                    color += letters[Math.floor(Math.random() * 16)];<br />
+                }<br />
+                return color;<br />
+            }<br />
+            var newColor = getRandomColor(); 
+        </code>
+    </p>
+
+
+    <script type = "text/javascript">
+        botao = document.querySelector("button#botao");
+        quadrados = document.querySelector("div#recebe");
+        botao.onclick = function(){
+            criando = document.createElement("div");
+            criando.style.width = "100px";
+            criando.style.height = "100px";
+            criando.style.backgroundColor = "red";
+            quadrados.appendChild(criando);
+        }
+    </script>
+</body>
+</html>
