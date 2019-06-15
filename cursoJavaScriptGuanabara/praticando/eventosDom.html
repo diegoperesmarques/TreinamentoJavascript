@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos DOM</title>
+    <style type = "text/css">
+        #modificacoes {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id = "tudo">
+        <div id = "modificacoes">
+            Texto inicial...
+        </div>
+
+        <h3>Alterando a cor</h3>
+        <p>Clique nas cores abaixo para modificar:</p>
+        <a href = "#" onclick = "corVerde()">Verde</a>
+        <a href = "#" onclick = "corAzul()">Azul</a>
+        <a href = "#" onclick = "corAmarelo()">Amaredo</a>
+        <a href = "#" onclick = "corVermelho()">Vermelho</a>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <h3>Alterando o tamanho</h3>
+        Digite a altura e largura para a Div<br />
+        Largura: <input type = "number" id = "largura" name = "largura" /><br />
+        Altura: <input type = "number" id = "altura" name = "altura" /><br />
+        <input type = "submit" value = "Aplicar" onclick = "alterarTamanho()" />
+
+        <h3>Alterando o texto</h3>
+        Digite o texto abaixo
+        <input type = "text" name = "texto" id = "texto" onkeypress = "mudarTexto()" />
+
+    </div>
+
+    <script type = "text/javascript">
+        elemento = document.querySelector("div#modificacoes");
+        function corVerde() {
+            elemento.style.backgroundColor = "green";
+        }
+
+        function corAzul(){
+            elemento.style.backgroundColor = "blue";
+        }
+
+        function corAmarelo(){
+            elemento.style.backgroundColor = "yellow";
+        }
+
+        function corVermelho(){
+            elemento.style.backgroundColor = "red";
+        }
+
+        function alterarTamanho(){
+            largura = document.getElementById("largura").value;
+            altura = document.getElementById("altura").value;
+            elemento.style.width = largura +"px";
+            elemento.style.height = altura + "px";
+            elemento.style.lineHeight = altura + "px";
+        }
+
+        function mudarTexto(){
+            texto = document.getElementById("texto").value;
+            elemento.innerText = texto;
+        }
+    </script>
+</body>
+</html>
