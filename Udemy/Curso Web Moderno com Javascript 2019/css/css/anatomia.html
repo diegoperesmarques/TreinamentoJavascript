@@ -6,13 +6,27 @@
     <title>Anatomia CSS</title>
     <style>
         .selector {
-            color: #234;
+            color: #fff;
             font-size: 30px;
             text-align: right;
-            border: solid 5px navy; /* shorthand property */
+            border: dashed 5px navy; /* shorthand property */
             font-family: Helvetica, sans-serif;
+            /* Funções */ 
             width: calc(100% - 100px);
+            background-color: rgb(34, 134, 255);
         }
+        .selector:hover {
+            background-color: red;
+        }
+
+        /* Usando um pseudo-elemento */ 
+        .selector::first-letter {
+            font-size: 60px;
+            fon-weight: bold;
+        }
+
+        /* Padrão de nomenclatura */
+        /* dash-case ou Camelcase? */ 
     </style>
 </head>
 
