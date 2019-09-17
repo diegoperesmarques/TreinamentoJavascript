@@ -1,0 +1,23 @@
+<html>
+<script type = "text/javascript">
+function tratarErroELancar(erro) {
+	objeto = {
+		nome: erro.name,
+		mensagem: erro.message,
+		data: new Date
+	}
+	throw objeto.mensagem
+}
+
+function imprimirNomeGritado(obj) {
+try {
+	console.log(obj.name.toUpperCase() + '!!!');
+	} catch(e) {
+		tratarErroELancar(e)
+	}
+}
+
+const obj = {nome: 'Roberto'}
+imprimirNomeGritado(obj)
+</script>
+</html>
